@@ -1,0 +1,32 @@
+print('--- Calculator ---')
+
+while True:
+    try:
+        inp = input('Options: +, -, *, /: ')
+        numb1 = float(input('Input first number: '))
+        numb2 = float(input('Input second number: '))
+        
+        if inp == '+':
+            result1 = numb1 + numb2
+            print(f'Result is {result1}')
+        
+        elif inp == '-':
+            result2 = numb1 - numb2
+            print(f'Result is {result2}')
+            
+        elif inp == '*':
+            result3 = numb1 * numb2
+            print(f'Result is {result3}')
+            
+        elif inp == '/':
+            result4 = numb1 / numb2
+            if  numb2 == 0:
+                print('Cannot divide by 0')
+            else:
+                print(f'Result is {result4}')
+                
+    except ValueError:
+        print('Input as per directions: ')
+        
+    except Exception as e:
+            print(f'Invalid input error occured: {e}')
