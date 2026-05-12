@@ -1,2 +1,3 @@
-# AI-coding-progress
-I will be logging my progress on become an ai coding expert here
+#Journey to Enlightment
+I will become so good at coding roblox games I will set the path for a better future.
+
